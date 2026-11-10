@@ -1,0 +1,1514 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CareWell Clinic - Dr. Anjali Deshmukh | General Physician, Pune</title>
+    <meta
+      name="description"
+      content="CareWell Clinic in Pune, Maharashtra. Led by Dr. Anjali Deshmukh, General Physician (MBBS, MD). Attentive, evidence-based family healthcare. Timings: Mon-Sat 10 AM-1 PM & 5 PM-8 PM."
+    />
+
+    <!-- Open Graph / Social Sharing Meta -->
+    <meta property="og:title" content="CareWell Clinic - Dr. Anjali Deshmukh | General Physician, Pune" />
+    <meta
+      property="og:description"
+      content="Soft, calm, and attentive healthcare in Pune led by Dr. Anjali Deshmukh (MBBS, MD). Mon-Sat 10 AM-1 PM & 5 PM-8 PM."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Playfair Display & DM Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Top Fixed Scroll Progress Bar -->
+    <div class="scroll-progress-bar" id="scrollProgressBar" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100"></div>
+
+    <!-- ======================================================================
+         1. Sticky Frosted Glass Navigation Bar
+         ====================================================================== -->
+    <header class="site-header" id="siteHeader">
+      <div class="container header-container">
+        <!-- Clinic Logo & Doctor Info (Left) -->
+        <a href="#home" class="brand-link" aria-label="CareWell Clinic Home">
+          <div class="brand-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 5v14M5 12h14"></path>
+              <path d="M12 2a10 10 0 0 0-4 1.5"></path>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-name">CareWell<em> Clinic</em></span>
+            <span class="brand-doctor">Dr. Anjali Deshmukh · Pune</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links (Center - Anchor Links for One-Page Scrolling) -->
+        <nav class="desktop-nav" aria-label="Primary Navigation">
+          <ul class="nav-menu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Right Action Button & Mobile Hamburger Toggle -->
+        <div class="header-actions">
+          <a href="#appointment" class="btn btn-primary" data-nav-anchor="#appointment">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            <span>Book Appointment</span>
+          </a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button
+            type="button"
+            class="hamburger-btn"
+            id="hamburgerBtn"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+            aria-controls="mobileDrawer"
+          >
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer Overlay & Dropdown -->
+    <div class="mobile-nav-overlay" id="mobileOverlay" aria-hidden="true"></div>
+    <div class="mobile-nav-drawer" id="mobileDrawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+      <ul class="mobile-nav-menu">
+        <li>
+          <a href="#home" class="mobile-nav-link active">
+            <span>Home</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </li>
+        <li>
+          <a href="#services" class="mobile-nav-link">
+            <span>Services</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </li>
+        <li>
+          <a href="#about" class="mobile-nav-link">
+            <span>About</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </li>
+        <li>
+          <a href="#contact" class="mobile-nav-link">
+            <span>Contact</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </li>
+        <li>
+          <a href="#appointment" class="mobile-nav-link">
+            <span>Book Appointment</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </li>
+      </ul>
+
+      <div class="mobile-drawer-actions">
+        <a href="#appointment" class="btn btn-primary" style="width: 100%;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          <span>Book Appointment</span>
+        </a>
+
+        <button type="button" class="btn btn-outline" data-action="call-clinic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span>Call: +91 98765 43210</span>
+        </button>
+      </div>
+
+      <div class="mobile-clinic-info">
+        <p><strong>Dr. Anjali Deshmukh</strong>, General Physician (MBBS, MD)</p>
+        <p>Pune, Maharashtra · Mon–Sat (10 AM–1 PM, 5 PM–8 PM)</p>
+      </div>
+    </div>
+
+    <main id="mainContent">
+      <!-- ======================================================================
+           SECTION 1: #home (Hero & 3 Trust Points)
+           ====================================================================== -->
+      <section class="hero-section section-anchor section-tint-warm" id="home">
+        <!-- Soft Blurred Gradient Blobs in Background -->
+        <div class="hero-blob hero-blob-sage" aria-hidden="true"></div>
+        <div class="hero-blob hero-blob-peach" aria-hidden="true"></div>
+        <div class="hero-blob hero-blob-sky" aria-hidden="true"></div>
+
+        <div class="container">
+          <div class="hero-grid">
+            <!-- Left Hero Content Area -->
+            <div class="hero-content fade-up">
+              <div class="hero-heading-glow" aria-hidden="true"></div>
+
+              <div class="hero-kicker">
+                <span class="hero-kicker-dot" aria-hidden="true"></span>
+                <span>General Physician &amp; Family Medicine · Pune</span>
+              </div>
+
+              <h1 class="hero-title">
+                Thoughtful, gentle healthcare for <em>your family's</em> lifelong wellness.
+              </h1>
+
+              <p class="hero-subtitle">
+                Welcome to <strong>CareWell Clinic</strong>, led by <strong>Dr. Anjali Deshmukh (MBBS, MD)</strong>.
+                We provide patient-first medical consultations, chronic illness care, and unhurried preventive guidance in Pune.
+              </p>
+
+              <div class="hero-cta-group">
+                <a href="#appointment" class="btn btn-primary">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                  <span>Book Appointment</span>
+                </a>
+
+                <button type="button" class="btn btn-outline" data-action="call-clinic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                  <span>Call Now</span>
+                </button>
+              </div>
+
+              <!-- Live Clinic Status Pill Strip -->
+              <div class="clinic-status-strip">
+                <div class="clinic-status-badge is-open" id="clinicStatusBadge">
+                  <span class="indicator-dot" aria-hidden="true"></span>
+                  <span>Checking...</span>
+                </div>
+                <div class="clinic-status-text" id="clinicStatusNote">
+                  <strong>Timings:</strong> Mon–Sat 10 AM–1 PM, 5 PM–8 PM · <span>Sunday closed</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Hero Decorative Composition -->
+            <div class="hero-visual fade-up stagger-1">
+              <div class="visual-composition">
+                <!-- Floating Card 1: "Mon-Sat Open" -->
+                <div class="float-card-schedule" aria-label="Operating Hours">
+                  <div class="float-badge-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                  </div>
+                  <div class="float-badge-text">
+                    <strong>Mon–Sat Open</strong>
+                    <span>10 AM–1 PM · 5 PM–8 PM</span>
+                  </div>
+                </div>
+
+                <!-- Main Decorative Canvas -->
+                <div class="decorative-canvas">
+                  <div class="doctor-profile-header">
+                    <div class="doctor-avatar-circle" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"></path>
+                        <path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"></path>
+                        <circle cx="20" cy="10" r="2"></circle>
+                      </svg>
+                    </div>
+                    <div class="doctor-info-text">
+                      <h2 class="doctor-name">Dr. Anjali Deshmukh</h2>
+                      <span class="doctor-role">General Physician</span>
+                      <span class="doctor-creds">MBBS, MD · Pune, Maharashtra</span>
+                    </div>
+                  </div>
+
+                  <div class="clinic-meta-box">
+                    <div class="meta-item">
+                      <div class="meta-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                          <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                      </div>
+                      <div class="meta-content">
+                        <strong>CareWell Clinic</strong>
+                        <span>Pune, Maharashtra</span>
+                      </div>
+                    </div>
+
+                    <div class="meta-item">
+                      <div class="meta-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                      </div>
+                      <div class="meta-content">
+                        <strong>Consultation Timings</strong>
+                        <span>Mon–Sat: 10 AM – 1 PM &amp; 5 PM – 8 PM</span>
+                      </div>
+                    </div>
+
+                    <div class="meta-item">
+                      <div class="meta-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                          <line x1="9" y1="9" x2="15" y2="15"></line>
+                          <line x1="15" y1="9" x2="9" y2="15"></line>
+                        </svg>
+                      </div>
+                      <div class="meta-content">
+                        <strong>Sunday</strong>
+                        <span>Closed</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Floating Card 2: "Trusted Care" -->
+                <div class="float-card-trust" aria-label="Trusted Care Guarantee">
+                  <div class="float-badge-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                  </div>
+                  <div class="float-badge-text">
+                    <strong>Trusted Care</strong>
+                    <span>Compassionate &amp; Attentive</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trust Points Row (3 Cards) -->
+        <div class="container" style="padding-top: 3.5rem; padding-bottom: 2rem;">
+          <div class="trust-grid">
+            <article class="trust-card fade-up stagger-1">
+              <div class="trust-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"></path>
+                  <path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"></path>
+                  <circle cx="20" cy="10" r="2"></circle>
+                </svg>
+              </div>
+              <h3 class="trust-card-title">10+ Years Experience</h3>
+              <p class="trust-card-desc">
+                Over a decade of dedicated clinical practice in general medicine, accurate diagnosis, chronic disease management, and family health guidance in Pune.
+              </p>
+              <div class="trust-card-meta">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Dr. Anjali Deshmukh (MBBS, MD)</span>
+              </div>
+            </article>
+
+            <article class="trust-card fade-up stagger-2">
+              <div class="trust-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                  <path d="M7 10h2l2-3 2 6 2-3h2"></path>
+                </svg>
+              </div>
+              <h3 class="trust-card-title">Modern Equipment</h3>
+              <p class="trust-card-desc">
+                Well-maintained medical vitals assessment, digitized patient records, hygienic clinical premises, and fast point-of-care primary diagnostic tests.
+              </p>
+              <div class="trust-card-meta">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Hygienic &amp; Sterilized Environment</span>
+              </div>
+            </article>
+
+            <article class="trust-card fade-up stagger-3">
+              <div class="trust-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </div>
+              <h3 class="trust-card-title">Friendly Care</h3>
+              <p class="trust-card-desc">
+                Unrushed consultations where your symptoms and questions are listened to with genuine empathy. Clear explanations of treatment plans for all age groups.
+              </p>
+              <div class="trust-card-meta">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Patient-First Consultation Policy</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Wave Divider to Services -->
+      <div class="section-wave-divider" aria-hidden="true">
+        <svg viewBox="0 0 1440 48" fill="none" preserveAspectRatio="none">
+          <path d="M0,24 C320,48 480,0 720,24 C960,48 1120,0 1440,24 L1440,48 L0,48 Z" fill="rgba(207, 227, 216, 0.28)"></path>
+        </svg>
+      </div>
+
+      <!-- ======================================================================
+           SECTION 2: #services (Full Services Grid + How It Works + CTA)
+           ====================================================================== -->
+      <section class="services-section section-anchor section-tint-sage" id="services" style="padding-top: 5rem; padding-bottom: 5.5rem;">
+        <div class="container">
+          <div class="section-lead-header fade-up">
+            <span class="section-lead-kicker">Clinical Offerings</span>
+            <h2 class="section-lead-title">Our Medical Services</h2>
+            <p class="section-lead-subtitle">
+              Comprehensive outpatient medical care led by Dr. Anjali Deshmukh (MBBS, MD) with unhurried consultations and structured clinical follow-through in Pune.
+            </p>
+          </div>
+
+          <!-- 6 Service Cards Grid -->
+          <div class="services-grid" style="margin-bottom: 4.5rem;">
+            <!-- 1. General Checkup -->
+            <article class="service-card fade-up stagger-1">
+              <div class="service-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"></path>
+                  <path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"></path>
+                  <circle cx="20" cy="10" r="2"></circle>
+                </svg>
+              </div>
+              <h3 class="service-title">General Checkup</h3>
+              <p class="service-desc">
+                Thorough physical examinations, vitals assessment, and routine wellness reviews for individuals and families across all life stages.
+              </p>
+              <a href="#appointment" class="service-book-link" aria-label="Book General Checkup">
+                <span>Book Now</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </article>
+
+            <!-- 2. Fever & Infections -->
+            <article class="service-card fade-up stagger-2">
+              <div class="service-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path>
+                  <path d="M12 9v5"></path>
+                </svg>
+              </div>
+              <h3 class="service-title">Fever &amp; Infections</h3>
+              <p class="service-desc">
+                Accurate clinical diagnosis and prompt treatment for acute seasonal fevers, respiratory infections, and viral illnesses.
+              </p>
+              <a href="#appointment" class="service-book-link" aria-label="Book Fever & Infections Consultation">
+                <span>Book Now</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </article>
+
+            <!-- 3. Diabetes Care -->
+            <article class="service-card fade-up stagger-3">
+              <div class="service-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                  <circle cx="12" cy="14" r="2.5"></circle>
+                </svg>
+              </div>
+              <h3 class="service-title">Diabetes Care</h3>
+              <p class="service-desc">
+                Structured blood glucose tracking, medication optimization, and dietary guidance to maintain healthy HbA1c levels long-term.
+              </p>
+              <a href="#appointment" class="service-book-link" aria-label="Book Diabetes Care Consultation">
+                <span>Book Now</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </article>
+
+            <!-- 4. Blood Pressure Care -->
+            <article class="service-card fade-up stagger-1">
+              <div class="service-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                  <path d="M3.22 12H9.5l1.5-3 2 6 1.5-3h6.28"></path>
+                </svg>
+              </div>
+              <h3 class="service-title">Blood Pressure Care</h3>
+              <p class="service-desc">
+                Regular blood pressure monitoring, personalized therapy adjustments, and preventive guidance for cardiovascular health.
+              </p>
+              <a href="#appointment" class="service-book-link" aria-label="Book Blood Pressure Care Consultation">
+                <span>Book Now</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </article>
+
+            <!-- 5. Health Screening -->
+            <article class="service-card fade-up stagger-2">
+              <div class="service-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                  <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                  <path d="M9 14l2 2 4-4"></path>
+                </svg>
+              </div>
+              <h3 class="service-title">Health Screening</h3>
+              <p class="service-desc">
+                Preventive lab test evaluations, lipid profiles, metabolic reviews, and early detection assessments for proactive health.
+              </p>
+              <a href="#appointment" class="service-book-link" aria-label="Book Health Screening">
+                <span>Book Now</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </article>
+
+            <!-- 6. Vaccination -->
+            <article class="service-card fade-up stagger-3">
+              <div class="service-icon-box" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  <path d="m9 12 2 2 4-4"></path>
+                </svg>
+              </div>
+              <h3 class="service-title">Vaccination</h3>
+              <p class="service-desc">
+                Essential adult immunizations, annual flu shots, and personalized travel vaccine schedules delivered with patient comfort.
+              </p>
+              <a href="#appointment" class="service-book-link" aria-label="Book Vaccination">
+                <span>Book Now</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </a>
+            </article>
+          </div>
+
+          <!-- How It Works Sub-Section -->
+          <div style="padding-top: 1rem;">
+            <div class="steps-header fade-up">
+              <span class="steps-kicker">Simple 3-Step Process</span>
+              <h3 class="steps-title">How It Works</h3>
+            </div>
+
+            <div class="steps-grid">
+              <div class="step-card fade-up stagger-1">
+                <div class="step-badge" aria-hidden="true">01</div>
+                <h4 class="step-title">Book online</h4>
+                <p class="step-desc">
+                  Select your preferred morning or evening consultation slot through our quick appointment request form or by direct phone call.
+                </p>
+              </div>
+
+              <div class="step-card fade-up stagger-2">
+                <div class="step-badge" aria-hidden="true">02</div>
+                <h4 class="step-title">Visit the clinic</h4>
+                <p class="step-desc">
+                  Arrive at CareWell Clinic in Pune with minimal waiting times, peaceful reception support, and hygienic clinical premises.
+                </p>
+              </div>
+
+              <div class="step-card fade-up stagger-3">
+                <div class="step-badge" aria-hidden="true">03</div>
+                <h4 class="step-title">Get your care plan</h4>
+                <p class="step-desc">
+                  Receive an unrushed clinical examination from Dr. Anjali Deshmukh, clear medical explanations, and a tailored recovery roadmap.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA Banner -->
+          <div class="cta-banner-card fade-up" style="margin-top: 4rem;">
+            <div class="cta-banner-content">
+              <span class="cta-banner-kicker">Need Guidance?</span>
+              <h3 class="cta-banner-title">Not sure which service you need?</h3>
+              <p class="cta-banner-subtitle">
+                Our clinic team is happy to assist you in scheduling the appropriate general physician consultation or routine checkup.
+              </p>
+            </div>
+            <div class="cta-banner-actions">
+              <button type="button" class="btn btn-primary" data-action="call-clinic">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <span>Call Now: +91 98765 43210</span>
+              </button>
+              <a href="#appointment" class="btn btn-outline">
+                <span>Book Consultation</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Wave Divider to About -->
+      <div class="section-wave-divider" aria-hidden="true">
+        <svg viewBox="0 0 1440 48" fill="none" preserveAspectRatio="none">
+          <path d="M0,0 C360,48 720,0 1080,48 C1260,24 1380,12 1440,0 L1440,48 L0,48 Z" fill="var(--color-bg)"></path>
+        </svg>
+      </div>
+
+      <!-- ======================================================================
+           SECTION 3: #about (Doctor, Values, Clinic Spaces, Timings Strip)
+           ====================================================================== -->
+      <section class="about-doctor-section section-anchor section-tint-warm" id="about" style="padding-top: 5rem; padding-bottom: 5.5rem;">
+        <div class="container">
+          <div class="section-lead-header fade-up">
+            <span class="section-lead-kicker">Patient-First Philosophy</span>
+            <h2 class="section-lead-title">About Dr. Anjali Deshmukh</h2>
+            <p class="section-lead-subtitle">
+              A community medical practice in Pune established on the conviction that attentive listening and personalized medical care foster lifelong health.
+            </p>
+          </div>
+
+          <!-- Doctor Bio Grid (Two-Column) -->
+          <div class="about-doctor-grid" style="margin-bottom: 5rem;">
+            <!-- Left: Rounded Photo Placeholder & Floating Card -->
+            <div class="doctor-image-wrapper fade-up stagger-1">
+              <div class="doctor-photo-placeholder" aria-label="Photo placeholder for Dr. Anjali Deshmukh">
+                <div class="doctor-placeholder-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                    <path d="M12 11v4"></path>
+                    <path d="M10 13h4"></path>
+                  </svg>
+                </div>
+                <div class="doctor-placeholder-caption">
+                  <strong>Dr. Anjali Deshmukh</strong><br />
+                  MBBS, MD (General Medicine)
+                </div>
+              </div>
+
+              <div class="floating-role-card" aria-hidden="true">
+                <div class="role-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <span>General Physician</span>
+              </div>
+            </div>
+
+            <!-- Right: Warm 2-Paragraph Intro & Qualifications Box -->
+            <div class="doctor-bio-content fade-up stagger-2">
+              <span class="doctor-bio-kicker">Meet Your Doctor</span>
+              <h3 class="doctor-bio-heading">Caring, Patient-First Primary Healthcare</h3>
+
+              <p class="doctor-bio-text">
+                Dr. Anjali Deshmukh is a dedicated General Physician practicing in Pune, Maharashtra. She believes that good medicine begins with attentive listening. In her consultations, patients are given the time and space to express their symptoms and concerns without feeling rushed, ensuring an accurate clinical evaluation and a warm, supportive atmosphere.
+              </p>
+
+              <p class="doctor-bio-text">
+                Her clinical practice focuses on thorough diagnostic assessments, evidence-based treatment plans, and continuous guidance for everyday health, chronic condition management, and preventive wellness. By partnering closely with patients, she helps individuals make informed decisions about their health with clarity and confidence.
+              </p>
+
+              <div class="qualifications-card">
+                <span class="qualifications-title">Medical Qualifications</span>
+                <div class="qualifications-pills">
+                  <span class="qual-badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>MBBS</span>
+                  </span>
+                  <span class="qual-badge">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>MD (General Medicine)</span>
+                  </span>
+                  <span class="qual-badge" style="background-color: var(--sky-light); border-color: var(--sky-border); color: var(--color-primary);">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <span>Registered Medical Practitioner</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Our Values Sub-Section (4 Cards) -->
+          <div style="margin-bottom: 5rem;">
+            <div class="values-header fade-up">
+              <span class="values-kicker">Guiding Principles</span>
+              <h3 class="values-title">Our Values</h3>
+            </div>
+
+            <div class="values-grid">
+              <article class="value-card fade-up stagger-1">
+                <div class="value-icon-box" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                  </svg>
+                </div>
+                <h4 class="value-title">Patient First</h4>
+                <p class="value-desc">
+                  Every consultation and health recommendation is shaped solely around your individual well-being and peace of mind.
+                </p>
+              </article>
+
+              <article class="value-card fade-up stagger-2">
+                <div class="value-icon-box" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                    <line x1="8" y1="10" x2="16" y2="10"></line>
+                  </svg>
+                </div>
+                <h4 class="value-title">Clear Communication</h4>
+                <p class="value-desc">
+                  We explain medical diagnoses, lab tests, and therapy steps in simple, transparent, and reassuring language.
+                </p>
+              </article>
+
+              <article class="value-card fade-up stagger-3">
+                <div class="value-icon-box" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    <path d="m9 12 2 2 4-4"></path>
+                  </svg>
+                </div>
+                <h4 class="value-title">Honest Advice</h4>
+                <p class="value-desc">
+                  Evidence-based medical counsel with genuine objectivity, ensuring only necessary and beneficial care pathways.
+                </p>
+              </article>
+
+              <article class="value-card fade-up stagger-1">
+                <div class="value-icon-box" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                    <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                    <line x1="15" y1="9" x2="15.01" y2="9"></line>
+                  </svg>
+                </div>
+                <h4 class="value-title">Comfortable Care</h4>
+                <p class="value-desc">
+                  A serene, hygienic clinic setting designed to reduce anxiety and provide a calm experience from the moment you step in.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <!-- Our Clinic Sub-Section (3 Space Cards) -->
+          <div style="margin-bottom: 4rem;">
+            <div class="clinic-spaces-header fade-up">
+              <span class="page-header-kicker">Sanitized &amp; Serene</span>
+              <h3 class="clinic-spaces-title">Our Clinic Space</h3>
+              <p class="clinic-spaces-intro">
+                CareWell Clinic is located in Pune, thoughtfully designed to offer a clean, calm, and welcoming healthcare experience. We take special pride in maintaining high sterilization standards, organized consultation scheduling, and a quiet, comfortable space where patients and their families feel completely at ease.
+              </p>
+            </div>
+
+            <div class="clinic-spaces-grid">
+              <div class="space-placeholder-card fade-up stagger-1">
+                <div class="space-gradient-box space-reception-bg" aria-label="Reception Space illustration">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+                    <line x1="7" y1="8" x2="17" y2="8"></line>
+                    <line x1="7" y1="12" x2="13" y2="12"></line>
+                    <circle cx="17" cy="12" r="1"></circle>
+                  </svg>
+                </div>
+                <div class="space-info-box">
+                  <h4 class="space-label">Reception</h4>
+                  <span class="space-sublabel">Prompt check-ins &amp; friendly assistance</span>
+                </div>
+              </div>
+
+              <div class="space-placeholder-card fade-up stagger-2">
+                <div class="space-gradient-box space-consultation-bg" aria-label="Consultation Room illustration">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"></path>
+                    <path d="M8 7h8"></path>
+                    <path d="M8 11h8"></path>
+                  </svg>
+                </div>
+                <div class="space-info-box">
+                  <h4 class="space-label">Consultation Room</h4>
+                  <span class="space-sublabel">Private, unhurried medical examinations</span>
+                </div>
+              </div>
+
+              <div class="space-placeholder-card fade-up stagger-3">
+                <div class="space-gradient-box space-waiting-bg" aria-label="Waiting Area illustration">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 9l1.25-2.5A2 2 0 0 0 18.47 4H5.53a2 2 0 0 0-1.78 2.5L5 9"></path>
+                    <path d="M3 13v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6"></path>
+                    <line x1="3" y1="13" x2="21" y2="13"></line>
+                  </svg>
+                </div>
+                <div class="space-info-box">
+                  <h4 class="space-label">Waiting Area</h4>
+                  <span class="space-sublabel">Quiet, sanitized seating with filtered air</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Highlight Strip -->
+          <div class="clinic-highlight-strip fade-up" role="region" aria-label="Clinic Schedule and Location">
+            <div class="highlight-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>Mon – Sat</span>
+            </div>
+            <span class="highlight-divider">•</span>
+            <div class="highlight-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <span>10 AM–1 PM &amp; 5 PM–8 PM</span>
+            </div>
+            <span class="highlight-divider">•</span>
+            <div class="highlight-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Pune, Maharashtra</span>
+            </div>
+            <span class="highlight-divider">•</span>
+            <div class="highlight-item">
+              <span class="footer-timing-badge" style="background-color: var(--color-status-closed-bg); border-color: rgba(154,52,45,0.2); color: var(--color-status-closed); margin: 0;">Sunday Closed</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Wave Divider to Contact -->
+      <div class="section-wave-divider" aria-hidden="true">
+        <svg viewBox="0 0 1440 48" fill="none" preserveAspectRatio="none">
+          <path d="M0,24 C360,0 720,48 1080,0 C1260,24 1380,36 1440,48 L1440,48 L0,48 Z" fill="rgba(205, 232, 246, 0.22)"></path>
+        </svg>
+      </div>
+
+      <!-- ======================================================================
+           SECTION 4: #contact (Info Cards, Message Form with Validation, Map)
+           ====================================================================== -->
+      <section class="contact-cards-section section-anchor section-tint-sky" id="contact" style="padding-top: 5rem; padding-bottom: 5.5rem;">
+        <div class="container">
+          <div class="section-lead-header fade-up">
+            <span class="section-lead-kicker">We're Here For You</span>
+            <h2 class="section-lead-title">Contact &amp; Location</h2>
+            <p class="section-lead-subtitle">
+              Have a question about consultation hours, primary care services, or directions to CareWell Clinic? We welcome you to reach out anytime.
+            </p>
+          </div>
+
+          <!-- 4 Contact Cards Grid -->
+          <div class="contact-cards-grid" style="margin-bottom: 4.5rem;">
+            <!-- Phone -->
+            <a href="tel:+919876543210" class="contact-info-card fade-up stagger-1" aria-label="Call CareWell Clinic at +91 98765 43210">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <h3 class="contact-card-title">Phone</h3>
+              <span class="contact-card-value">+91 98765 43210</span>
+              <p class="contact-card-subtext">Direct reception line during clinic hours</p>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:hello@carewellclinic.example" class="contact-info-card fade-up stagger-2" aria-label="Email CareWell Clinic at hello@carewellclinic.example">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+              </div>
+              <h3 class="contact-card-title">Email</h3>
+              <span class="contact-card-value" style="word-break: break-all;">hello@carewellclinic.example</span>
+              <p class="contact-card-subtext">For general inquiries and records support</p>
+            </a>
+
+            <!-- Address -->
+            <div class="contact-info-card fade-up stagger-3">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <h3 class="contact-card-title">Address</h3>
+              <span class="contact-card-value" style="color: var(--color-text-main);">CareWell Clinic</span>
+              <p class="contact-card-subtext">Shivajinagar / Central Pune, Maharashtra</p>
+            </div>
+
+            <!-- Timings -->
+            <div class="contact-info-card fade-up stagger-1">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <h3 class="contact-card-title">Timings</h3>
+              <span class="contact-card-value" style="color: var(--color-text-main);">Mon – Sat</span>
+              <p class="contact-card-subtext">10 AM–1 PM &amp; 5 PM–8 PM · Sunday closed</p>
+            </div>
+          </div>
+
+          <!-- Two-Column Section: Form (Left) & Map Area (Right) -->
+          <div class="contact-layout-grid">
+            <!-- Left Column: Working Message Form -->
+            <div class="contact-form-card fade-up">
+              <div class="contact-form-header">
+                <span class="contact-form-kicker">Direct Inquiry</span>
+                <h3 class="contact-form-title">Send us a message</h3>
+                <p class="contact-form-subtitle">
+                  Fill in your details below and our clinic reception will get back to you shortly.
+                </p>
+              </div>
+
+              <!-- Inline Success Message -->
+              <div class="contact-form-success" id="contactSuccessBanner" role="status" aria-live="polite">
+                <div class="success-check-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <h4 class="contact-success-title">Message Sent!</h4>
+                <p class="contact-success-desc">
+                  Thank you, we will get back to you soon. For urgent consultation requests, you may also call us directly.
+                </p>
+              </div>
+
+              <!-- Form with Validation -->
+              <form id="contactForm" novalidate>
+                <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+                  <div class="form-field-group">
+                    <label for="contactName">Full Name *</label>
+                    <input
+                      type="text"
+                      id="contactName"
+                      name="name"
+                      class="form-input"
+                      placeholder="e.g. Rahul Sharma"
+                      required
+                    />
+                    <span class="field-error-msg" id="contactNameError" aria-live="polite"></span>
+                  </div>
+
+                  <div class="form-field-group">
+                    <label for="contactPhone">Phone Number (10 Digits) *</label>
+                    <input
+                      type="tel"
+                      id="contactPhone"
+                      name="phone"
+                      class="form-input"
+                      placeholder="e.g. 9876543210"
+                      maxlength="14"
+                      required
+                    />
+                    <span class="field-error-msg" id="contactPhoneError" aria-live="polite"></span>
+                  </div>
+
+                  <div class="form-field-group">
+                    <label for="contactEmail">Email Address (Optional)</label>
+                    <input
+                      type="email"
+                      id="contactEmail"
+                      name="email"
+                      class="form-input"
+                      placeholder="e.g. rahul@example.com"
+                    />
+                  </div>
+
+                  <div class="form-field-group">
+                    <label for="contactMessage">Your Message *</label>
+                    <textarea
+                      id="contactMessage"
+                      name="message"
+                      class="form-textarea"
+                      placeholder="How can Dr. Anjali Deshmukh and CareWell Clinic assist you?"
+                      required
+                    ></textarea>
+                    <span class="field-error-msg" id="contactMessageError" aria-live="polite"></span>
+                  </div>
+
+                  <div style="margin-top: 0.25rem;">
+                    <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.9375rem 2rem; font-size: 1rem;">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                      </svg>
+                      <span>Send Message</span>
+                    </button>
+                  </div>
+
+                  <div class="emergency-notice-note">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="12" y1="8" x2="12" y2="12"></line>
+                      <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                    </svg>
+                    <span>
+                      <strong>Important Notice:</strong> For medical emergencies, please visit the nearest hospital or emergency department immediately.
+                    </span>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <!-- Right Column: Map Placeholder Area -->
+            <div class="map-wrapper fade-up stagger-1">
+              <div class="map-placeholder-content" role="region" aria-label="Clinic Map Placeholder">
+                <div class="map-pin-badge" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+
+                <div style="display: flex; flex-direction: column; gap: 0.5rem; align-items: center;">
+                  <span class="map-placeholder-badge">Central Pune Location</span>
+                  <h3 class="map-placeholder-title">Clinic Location Map</h3>
+                  <p class="map-placeholder-address">
+                    CareWell Clinic · Shivajinagar, Pune, Maharashtra<br />
+                    Convenient central access with parking available
+                  </p>
+                </div>
+
+                <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; justify-content: center; margin-top: 0.5rem;">
+                  <a href="https://maps.google.com/?q=Pune,+Maharashtra" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="font-size: 0.875rem; padding: 0.625rem 1.25rem;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    <span>Open in Maps</span>
+                  </a>
+                  <a href="#appointment" class="btn btn-primary" style="font-size: 0.875rem; padding: 0.625rem 1.25rem;">
+                    <span>Book Visit</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Wave Divider to FAQ -->
+      <div class="section-wave-divider" aria-hidden="true">
+        <svg viewBox="0 0 1440 48" fill="none" preserveAspectRatio="none">
+          <path d="M0,0 C320,48 480,0 720,24 C960,48 1120,0 1440,24 L1440,48 L0,48 Z" fill="var(--color-bg)"></path>
+        </svg>
+      </div>
+
+      <!-- ======================================================================
+           FAQ ACCORDION SECTION (Between Contact and Appointment)
+           ====================================================================== -->
+      <section class="faq-section section-anchor section-tint-warm" id="faq">
+        <div class="container">
+          <div class="section-lead-header fade-up">
+            <span class="section-lead-kicker">Helpful Answers</span>
+            <h2 class="section-lead-title">Frequently Asked Questions</h2>
+            <p class="section-lead-subtitle">
+              Common questions about booking consultation slots, clinic visiting hours, and what to bring for your visit.
+            </p>
+          </div>
+
+          <div class="faq-accordion-container fade-up">
+            <!-- FAQ 1 -->
+            <div class="faq-item is-open">
+              <button type="button" class="faq-question-btn" aria-expanded="true">
+                <span>Do I need an appointment or do you accept walk-ins?</span>
+                <span class="faq-chevron" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </span>
+              </button>
+              <div class="faq-answer">
+                We strongly recommend booking an appointment online or calling ahead to minimize your waiting time. While walk-in patients are accommodated during regular clinic hours based on slot availability, scheduled consultations are given priority.
+              </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="faq-item">
+              <button type="button" class="faq-question-btn" aria-expanded="false">
+                <span>What are the consultation hours of Dr. Anjali Deshmukh?</span>
+                <span class="faq-chevron" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </span>
+              </button>
+              <div class="faq-answer">
+                Dr. Anjali Deshmukh is available for outpatient consultations Monday through Saturday across two daily shifts: Morning from 10:00 AM to 1:00 PM, and Evening from 5:00 PM to 8:00 PM. The clinic is closed on Sundays.
+              </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="faq-item">
+              <button type="button" class="faq-question-btn" aria-expanded="false">
+                <span>What should I bring along for my first appointment?</span>
+                <span class="faq-chevron" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </span>
+              </button>
+              <div class="faq-answer">
+                Please bring any past medical records, prescriptions, hospital discharge summaries, or recent laboratory investigation reports (blood tests, HbA1c, lipid profiles). Also have a list of your current medicines, vitamins, or dietary supplements.
+              </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="faq-item">
+              <button type="button" class="faq-question-btn" aria-expanded="false">
+                <span>How can I confirm or reschedule my appointment?</span>
+                <span class="faq-chevron" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </span>
+              </button>
+              <div class="faq-answer">
+                After submitting the appointment request, you can directly tap "Confirm on WhatsApp" to receive instant confirmation from our reception desk. If you need to reschedule or cancel, simply message or call us at +91 98765 43210 during clinic hours.
+              </div>
+            </div>
+
+            <!-- FAQ 5 -->
+            <div class="faq-item">
+              <button type="button" class="faq-question-btn" aria-expanded="false">
+                <span>Is parking and easy access available at CareWell Clinic?</span>
+                <span class="faq-chevron" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </span>
+              </button>
+              <div class="faq-answer">
+                Yes, CareWell Clinic in Pune features convenient ground-floor wheelchair accessibility and designated vehicle parking for visiting patients and their accompanying families.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Wave Divider to Appointment -->
+      <div class="section-wave-divider" aria-hidden="true">
+        <svg viewBox="0 0 1440 48" fill="none" preserveAspectRatio="none">
+          <path d="M0,24 C320,0 480,48 720,24 C960,0 1120,48 1440,24 L1440,48 L0,48 Z" fill="rgba(207, 227, 216, 0.22)"></path>
+        </svg>
+      </div>
+
+      <!-- ======================================================================
+           SECTION 5: #appointment (Full Appointment Booking Form + Slots + Summary)
+           ====================================================================== -->
+      <section class="appointment-page-section section-anchor section-tint-sage" id="appointment" style="padding-top: 5rem; padding-bottom: 6rem;">
+        <div class="container">
+          <div class="section-lead-header fade-up">
+            <span class="section-lead-kicker">Online Consultation Scheduling</span>
+            <h2 class="section-lead-title">Book an Appointment</h2>
+            <p class="section-lead-subtitle">
+              Schedule your in-person visit with Dr. Anjali Deshmukh (MBBS, MD). Select your preferred date and convenient time slot below.
+            </p>
+          </div>
+
+          <!-- Two-Column Grid: Form (Left) & Sticky Summary (Right) -->
+          <div class="appointment-two-col-grid">
+            <!-- Left Column: Booking Form Card & Success Card -->
+            <div class="appointment-form-column">
+              <div id="pageBookingFormView" class="fade-up">
+                <div class="booking-form-card">
+                  <div class="booking-form-header">
+                    <span class="clinic-status-badge" style="width: fit-content;">Patient Details &amp; Preferred Time</span>
+                    <h3 class="booking-form-title">Consultation Request</h3>
+                    <p class="booking-form-subtitle">
+                      Please enter your contact details and choose your appointment time. We will reserve your consultation slot immediately.
+                    </p>
+                  </div>
+
+                  <form id="pageBookingForm" novalidate>
+                    <!-- Field 1: Patient Full Name -->
+                    <div class="form-group">
+                      <label for="bookingName" class="form-label">Full Name *</label>
+                      <input
+                        type="text"
+                        id="bookingName"
+                        name="bookingName"
+                        class="form-input"
+                        placeholder="e.g. Rahul Sharma"
+                        required
+                        autocomplete="name"
+                      />
+                      <span class="field-error-msg" id="bookingNameError"></span>
+                    </div>
+
+                    <!-- Field 2: Phone (10 digits) -->
+                    <div class="form-group">
+                      <label for="bookingPhone" class="form-label">Phone Number (10 Digits) *</label>
+                      <input
+                        type="tel"
+                        id="bookingPhone"
+                        name="bookingPhone"
+                        class="form-input"
+                        placeholder="e.g. 9876543210"
+                        maxlength="14"
+                        required
+                        autocomplete="tel"
+                      />
+                      <span class="field-error-msg" id="bookingPhoneError"></span>
+                    </div>
+
+                    <!-- Field 3: Service Selection Dropdown -->
+                    <div class="form-group">
+                      <label for="bookingService" class="form-label">Select Service *</label>
+                      <select id="bookingService" name="bookingService" class="form-select" required>
+                        <option value="">-- Choose a health service --</option>
+                        <option value="General Checkup">General Checkup</option>
+                        <option value="Fever &amp; Infections">Fever &amp; Infections</option>
+                        <option value="Diabetes Care">Diabetes Care</option>
+                        <option value="Blood Pressure Care">Blood Pressure Care</option>
+                        <option value="Health Screening">Health Screening</option>
+                        <option value="Vaccination">Vaccination</option>
+                      </select>
+                      <span class="field-error-msg" id="bookingServiceError"></span>
+                    </div>
+
+                    <!-- Field 4: Preferred Date -->
+                    <div class="form-group">
+                      <label for="bookingDate" class="form-label">Preferred Date *</label>
+                      <input
+                        type="date"
+                        id="bookingDate"
+                        name="bookingDate"
+                        class="form-input"
+                        required
+                      />
+                      <!-- Sunday warning message -->
+                      <div class="date-warning-msg" id="bookingDateWarning">
+                        The clinic is closed on Sundays, please choose another day.
+                      </div>
+                      <span class="field-error-msg" id="bookingDateError"></span>
+                    </div>
+
+                    <!-- Field 5: Clickable Pill-Shaped Time Slots (Morning & Evening) -->
+                    <div class="form-group">
+                      <label class="form-label">Preferred Time Slot *</label>
+                      <div id="slotPickerContainer" class="time-slot-picker-wrap" style="display: none;">
+                        <!-- Morning Slots Group -->
+                        <div class="slot-period-group">
+                          <span class="slot-period-heading">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                            Morning Hours (10:00 AM – 1:00 PM)
+                          </span>
+                          <div class="slots-grid">
+                            <button type="button" class="slot-pill-btn" data-time="10:00" data-label="10:00 AM">10:00 AM</button>
+                            <button type="button" class="slot-pill-btn" data-time="10:30" data-label="10:30 AM">10:30 AM</button>
+                            <button type="button" class="slot-pill-btn" data-time="11:00" data-label="11:00 AM">11:00 AM</button>
+                            <button type="button" class="slot-pill-btn" data-time="11:30" data-label="11:30 AM">11:30 AM</button>
+                            <button type="button" class="slot-pill-btn" data-time="12:00" data-label="12:00 PM">12:00 PM</button>
+                            <button type="button" class="slot-pill-btn" data-time="12:30" data-label="12:30 PM">12:30 PM</button>
+                          </div>
+                        </div>
+
+                        <!-- Evening Slots Group -->
+                        <div class="slot-period-group">
+                          <span class="slot-period-heading">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                            Evening Hours (5:00 PM – 8:00 PM)
+                          </span>
+                          <div class="slots-grid">
+                            <button type="button" class="slot-pill-btn" data-time="17:00" data-label="5:00 PM">5:00 PM</button>
+                            <button type="button" class="slot-pill-btn" data-time="17:30" data-label="5:30 PM">5:30 PM</button>
+                            <button type="button" class="slot-pill-btn" data-time="18:00" data-label="6:00 PM">6:00 PM</button>
+                            <button type="button" class="slot-pill-btn" data-time="18:30" data-label="6:30 PM">6:30 PM</button>
+                            <button type="button" class="slot-pill-btn" data-time="19:00" data-label="7:00 PM">7:00 PM</button>
+                            <button type="button" class="slot-pill-btn" data-time="19:30" data-label="7:30 PM">7:30 PM</button>
+                          </div>
+                        </div>
+                      </div>
+                      <input type="hidden" id="selectedSlotValue" name="selectedSlotValue" required />
+                      <span class="field-error-msg" id="bookingSlotError"></span>
+                    </div>
+
+                    <!-- Field 6: Reason for Visit (Optional, short) -->
+                    <div class="form-group">
+                      <label for="bookingReason" class="form-label">Reason for Visit (Optional)</label>
+                      <input
+                        type="text"
+                        id="bookingReason"
+                        name="bookingReason"
+                        class="form-input"
+                        placeholder="e.g. Mild throat pain, routine sugar checkup, follow-up"
+                        maxlength="150"
+                      />
+                    </div>
+
+                    <!-- Submit Button with Teal Glow -->
+                    <div style="margin-top: 1.5rem;">
+                      <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.9375rem 2rem; font-size: 1rem;">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 18px; height: 18px;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                        <span>Confirm Appointment Request</span>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <!-- Friendly Confirmation Card (Shown on submit success without page reload) -->
+              <div id="pageSuccessCard" class="appointment-success-card">
+                <div class="appointment-success-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <h3 class="appointment-success-title">Appointment Confirmed!</h3>
+                <p class="appointment-success-desc">
+                  Thank you for booking with CareWell Clinic. Your consultation token has been generated. Please review your visit summary below:
+                </p>
+
+                <!-- Summary Table / Details Card -->
+                <div class="confirmation-details-box">
+                  <div class="detail-line">
+                    <span>Patient Name:</span>
+                    <strong id="summaryPatientName">—</strong>
+                  </div>
+                  <div class="detail-line">
+                    <span>Phone Number:</span>
+                    <strong id="summaryPatientPhone">—</strong>
+                  </div>
+                  <div class="detail-line">
+                    <span>Health Service:</span>
+                    <strong id="summaryService">—</strong>
+                  </div>
+                  <div class="detail-line">
+                    <span>Appointment Date:</span>
+                    <strong id="summaryDate">—</strong>
+                  </div>
+                  <div class="detail-line">
+                    <span>Preferred Time Slot:</span>
+                    <strong id="summaryTime">—</strong>
+                  </div>
+                  <div class="detail-line">
+                    <span>Doctor:</span>
+                    <strong>Dr. Anjali Deshmukh (MBBS, MD)</strong>
+                  </div>
+                  <div class="detail-line">
+                    <span>Clinic Location:</span>
+                    <strong>CareWell Clinic, Pune</strong>
+                  </div>
+                </div>
+
+                <!-- WhatsApp Confirmation Button & Book Another -->
+                <div style="display: flex; flex-direction: column; gap: 0.875rem; width: 100%; max-width: 480px;">
+                  <a
+                    id="whatsappConfirmBtn"
+                    href="https://wa.me/919876543210"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-whatsapp-confirm"
+                  >
+                    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.05 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                    <span>Confirm on WhatsApp</span>
+                  </a>
+                  <button type="button" id="bookAnotherBtn" class="btn btn-outline">
+                    <span>Book Another Appointment</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Column: Sticky Summary Card -->
+            <div class="appointment-summary-column">
+              <aside class="booking-summary-card fade-up">
+                <div class="summary-card-header">
+                  <span class="page-header-kicker" style="margin-bottom: 0;">CareWell Clinic Guide</span>
+                  <h3 class="summary-card-title">Clinic Information</h3>
+                </div>
+
+                <!-- Clinic Timings -->
+                <div class="summary-block">
+                  <span class="summary-block-label">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    Clinic Timings
+                  </span>
+                  <ul class="summary-list">
+                    <li class="summary-list-item">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span><strong>Monday – Saturday:</strong><br />Morning: 10:00 AM – 1:00 PM<br />Evening: 5:00 PM – 8:00 PM</span>
+                    </li>
+                    <li class="summary-list-item">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--color-status-closed);"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                      <span style="color: var(--color-status-closed); font-weight: 500;"><strong>Sunday:</strong> Closed</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- What to Bring -->
+                <div class="summary-block">
+                  <span class="summary-block-label">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    What to Bring
+                  </span>
+                  <ul class="summary-list">
+                    <li class="summary-list-item">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span>Previous medical prescriptions or health records (if any)</span>
+                    </li>
+                    <li class="summary-list-item">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span>Recent lab or blood test reports relevant to your visit</span>
+                    </li>
+                    <li class="summary-list-item">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                      <span>List of ongoing medicines, vitamins, or supplements</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Prefer to talk? Call Now -->
+                <div class="summary-call-box">
+                  <span>Prefer to talk directly?</span>
+                  <a href="tel:+919876543210" class="summary-call-link">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 18px; height: 18px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <span>+91 98765 43210</span>
+                  </a>
+                  <span style="font-size: 0.8125rem; color: var(--color-text-muted);">Reception available during clinic hours.</span>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ======================================================================
+         Floating Interactive Widgets: Back-to-Top (Bottom-Left) & WhatsApp (Bottom-Right)
+         ====================================================================== -->
+    <!-- Floating Back-to-Top Button (Bottom-Left) -->
+    <a
+      href="#home"
+      id="backToTopBtn"
+      class="back-to-top-btn"
+      aria-label="Scroll back to top"
+      title="Scroll back to top"
+    >
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </a>
+
+    <!-- Floating WhatsApp Button (Bottom-Right) -->
+    <a
+      href="https://wa.me/919876543210"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="floating-whatsapp-btn"
+      aria-label="Chat with CareWell Clinic on WhatsApp"
+      title="Chat with CareWell Clinic on WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.05 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+      </svg>
+    </a>
+
+    <!-- ======================================================================
+         Clean Site Footer (Single Footer at Bottom of the One-Page Site)
+         ====================================================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Column 1: Brand & Doctor Details -->
+          <div class="footer-brand-col">
+            <a href="#home" class="brand-link" style="margin-bottom: 0.25rem;">
+              <div class="brand-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 5v14M5 12h14"></path>
+                  <path d="M12 2a10 10 0 0 0-4 1.5"></path>
+                </svg>
+              </div>
+              <div class="brand-text">
+                <span class="brand-name">CareWell<em> Clinic</em></span>
+                <span class="brand-doctor">Dr. Anjali Deshmukh · Pune</span>
+              </div>
+            </a>
+            <p class="footer-brand-desc">
+              Patient-centered family medical care led by Dr. Anjali Deshmukh (MBBS, MD) in Pune, Maharashtra.
+            </p>
+          </div>
+
+          <!-- Column 2: Quick Jump Links -->
+          <div>
+            <h3 class="footer-col-title">Navigation</h3>
+            <ul class="footer-nav-list">
+              <li><a href="#home" class="footer-nav-link">Home</a></li>
+              <li><a href="#services" class="footer-nav-link">Services</a></li>
+              <li><a href="#about" class="footer-nav-link">About Doctor</a></li>
+              <li><a href="#contact" class="footer-nav-link">Contact &amp; Location</a></li>
+              <li><a href="#appointment" class="footer-nav-link">Book Appointment</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Clinical Services -->
+          <div>
+            <h3 class="footer-col-title">Services</h3>
+            <ul class="footer-nav-list">
+              <li><a href="#services" class="footer-nav-link">General Checkup</a></li>
+              <li><a href="#services" class="footer-nav-link">Fever &amp; Infections</a></li>
+              <li><a href="#services" class="footer-nav-link">Diabetes Care</a></li>
+              <li><a href="#services" class="footer-nav-link">Blood Pressure Care</a></li>
+              <li><a href="#services" class="footer-nav-link">Health Screening</a></li>
+              <li><a href="#services" class="footer-nav-link">Vaccination</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 4: Consultation Timings -->
+          <div>
+            <h3 class="footer-col-title">Clinic Hours</h3>
+            <div class="footer-timings-list">
+              <span class="footer-timing-badge">Mon – Sat</span>
+              <p>
+                <strong>Morning:</strong> 10:00 AM – 1:00 PM<br />
+                <strong>Evening:</strong> 5:00 PM – 8:00 PM
+              </p>
+              <span class="footer-timing-badge" style="background-color: var(--color-status-closed-bg); border-color: rgba(154,52,45,0.2); color: var(--color-status-closed);">Sunday</span>
+              <p>Clinic Closed</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Bar with Medical Disclaimer -->
+        <div class="footer-bottom-bar">
+          <p class="footer-disclaimer">
+            This website is for information only and does not replace professional medical advice. Always consult a qualified physician for your personal health concerns.
+          </p>
+          <p>&copy; CareWell Clinic, Pune. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Quick Call Dialog -->
+    <div class="phone-dialog" id="callDialog" role="dialog" aria-modal="true" aria-label="Call CareWell Clinic">
+      <div class="phone-dialog-card">
+        <div class="brand-icon" style="margin: 0 auto 1.25rem;" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        </div>
+        <h3 class="modal-title">Call CareWell Clinic</h3>
+        <p class="modal-subtitle" style="margin-top: 0.35rem;">
+          Connect directly with reception during clinic hours:
+        </p>
+        <a href="tel:+919876543210" class="phone-dialog-number">+91 98765 43210</a>
+        <p style="font-size: 0.8125rem; color: var(--color-text-muted); margin-bottom: 1.5rem;">
+          Mon–Sat: 10:00 AM – 1:00 PM &amp; 5:00 PM – 8:00 PM (IST) · Sunday Closed
+        </p>
+        <div style="display: flex; gap: 0.75rem; justify-content: center;">
+          <a href="tel:+919876543210" class="btn btn-primary" style="flex: 1;">
+            Dial Now
+          </a>
+          <button type="button" class="btn btn-outline" id="closeCallBtn" style="flex: 1;">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Clean Toast Notification -->
+    <div class="toast-notice" id="toastNotice" role="status" aria-live="polite"></div>
+
+    <!-- Main JavaScript File -->
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
